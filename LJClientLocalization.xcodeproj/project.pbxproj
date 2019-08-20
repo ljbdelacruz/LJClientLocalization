@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453E1DFA1D07BD363E1F4196 /* Pods_LJClientLocalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F9C38863BB5D95FA1B9F5F /* Pods_LJClientLocalization.framework */; };
+		549132D171A094A08B87E6E3 /* Pods_LJClientLocalizationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0144618853451264E4A9461 /* Pods_LJClientLocalizationTests.framework */; };
 		EEFCDFE6230CBC9D0062FBC3 /* LJClientLocalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFCDFDC230CBC9D0062FBC3 /* LJClientLocalization.framework */; };
 		EEFCDFEB230CBC9D0062FBC3 /* LJClientLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCDFEA230CBC9D0062FBC3 /* LJClientLocalizationTests.swift */; };
 		EEFCDFED230CBC9D0062FBC3 /* LJClientLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFCDFDF230CBC9D0062FBC3 /* LJClientLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13F9C38863BB5D95FA1B9F5F /* Pods_LJClientLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJClientLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F23CD18F51DBD45A4D20E73 /* Pods-LJClientLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJClientLocalization.debug.xcconfig"; path = "Target Support Files/Pods-LJClientLocalization/Pods-LJClientLocalization.debug.xcconfig"; sourceTree = "<group>"; };
+		66D2DD35C359FFB0A28AED60 /* Pods-LJClientLocalizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJClientLocalizationTests.release.xcconfig"; path = "Target Support Files/Pods-LJClientLocalizationTests/Pods-LJClientLocalizationTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9A9FC79FE7F1C0B2D62936F /* Pods-LJClientLocalizationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJClientLocalizationTests.debug.xcconfig"; path = "Target Support Files/Pods-LJClientLocalizationTests/Pods-LJClientLocalizationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0144618853451264E4A9461 /* Pods_LJClientLocalizationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJClientLocalizationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9854C2A98256CF0423E3A0 /* Pods-LJClientLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJClientLocalization.release.xcconfig"; path = "Target Support Files/Pods-LJClientLocalization/Pods-LJClientLocalization.release.xcconfig"; sourceTree = "<group>"; };
 		EEFCDFDC230CBC9D0062FBC3 /* LJClientLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LJClientLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFCDFDF230CBC9D0062FBC3 /* LJClientLocalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJClientLocalization.h; sourceTree = "<group>"; };
 		EEFCDFE0230CBC9D0062FBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453E1DFA1D07BD363E1F4196 /* Pods_LJClientLocalization.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFCDFE6230CBC9D0062FBC3 /* LJClientLocalization.framework in Frameworks */,
+				549132D171A094A08B87E6E3 /* Pods_LJClientLocalizationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD4ECB8C4713042E59127FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F9C38863BB5D95FA1B9F5F /* Pods_LJClientLocalization.framework */,
+				E0144618853451264E4A9461 /* Pods_LJClientLocalizationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECEDBA2DEBC8FA0DE0E2CFD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F23CD18F51DBD45A4D20E73 /* Pods-LJClientLocalization.debug.xcconfig */,
+				EE9854C2A98256CF0423E3A0 /* Pods-LJClientLocalization.release.xcconfig */,
+				D9A9FC79FE7F1C0B2D62936F /* Pods-LJClientLocalizationTests.debug.xcconfig */,
+				66D2DD35C359FFB0A28AED60 /* Pods-LJClientLocalizationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EEFCDFD2230CBC9D0062FBC3 = {
 			isa = PBXGroup;
 			children = (
 				EEFCDFDE230CBC9D0062FBC3 /* LJClientLocalization */,
 				EEFCDFE9230CBC9D0062FBC3 /* LJClientLocalizationTests */,
 				EEFCDFDD230CBC9D0062FBC3 /* Products */,
+				ECEDBA2DEBC8FA0DE0E2CFD1 /* Pods */,
+				AD4ECB8C4713042E59127FAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEFCDFF0230CBC9D0062FBC3 /* Build configuration list for PBXNativeTarget "LJClientLocalization" */;
 			buildPhases = (
+				84BCB0B7AAB0817E70E5CEFF /* [CP] Check Pods Manifest.lock */,
 				EEFCDFD7230CBC9D0062FBC3 /* Headers */,
 				EEFCDFD8230CBC9D0062FBC3 /* Sources */,
 				EEFCDFD9230CBC9D0062FBC3 /* Frameworks */,
@@ -122,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEFCDFF3230CBC9D0062FBC3 /* Build configuration list for PBXNativeTarget "LJClientLocalizationTests" */;
 			buildPhases = (
+				78E79B947962513DBBD1EA22 /* [CP] Check Pods Manifest.lock */,
 				EEFCDFE1230CBC9D0062FBC3 /* Sources */,
 				EEFCDFE2230CBC9D0062FBC3 /* Frameworks */,
 				EEFCDFE3230CBC9D0062FBC3 /* Resources */,
@@ -188,6 +223,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78E79B947962513DBBD1EA22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJClientLocalizationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84BCB0B7AAB0817E70E5CEFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJClientLocalization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEFCDFD8230CBC9D0062FBC3 /* Sources */ = {
@@ -340,6 +422,7 @@
 		};
 		EEFCDFF1230CBC9D0062FBC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F23CD18F51DBD45A4D20E73 /* Pods-LJClientLocalization.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +448,7 @@
 		};
 		EEFCDFF2230CBC9D0062FBC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9854C2A98256CF0423E3A0 /* Pods-LJClientLocalization.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +474,7 @@
 		};
 		EEFCDFF4230CBC9D0062FBC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A9FC79FE7F1C0B2D62936F /* Pods-LJClientLocalizationTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
@@ -408,6 +493,7 @@
 		};
 		EEFCDFF5230CBC9D0062FBC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D2DD35C359FFB0A28AED60 /* Pods-LJClientLocalizationTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
