@@ -12,6 +12,20 @@
 		EEFCDFE6230CBC9D0062FBC3 /* LJClientLocalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFCDFDC230CBC9D0062FBC3 /* LJClientLocalization.framework */; };
 		EEFCDFEB230CBC9D0062FBC3 /* LJClientLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCDFEA230CBC9D0062FBC3 /* LJClientLocalizationTests.swift */; };
 		EEFCDFED230CBC9D0062FBC3 /* LJClientLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFCDFDF230CBC9D0062FBC3 /* LJClientLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFCDFFA230CC0200062FBC3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCDFF9230CC0200062FBC3 /* API.swift */; };
+		EEFCDFFC230CC19A0062FBC3 /* CLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCDFFB230CC19A0062FBC3 /* CLConstants.swift */; };
+		EEFCDFFF230CC22D0062FBC3 /* CLAppVersionRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCDFFE230CC22D0062FBC3 /* CLAppVersionRepo.swift */; };
+		EEFCE002230CC24D0062FBC3 /* CLAppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE001230CC24D0062FBC3 /* CLAppVersion.swift */; };
+		EEFCE005230CC2950062FBC3 /* Observable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE004230CC2950062FBC3 /* Observable+.swift */; };
+		EEFCE007230CC2C10062FBC3 /* CustomAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE006230CC2C10062FBC3 /* CustomAPIError.swift */; };
+		EEFCE009230CC33A0062FBC3 /* CLLJLocalizationRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE008230CC33A0062FBC3 /* CLLJLocalizationRepo.swift */; };
+		EEFCE00B230CC35C0062FBC3 /* CLLJLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE00A230CC35C0062FBC3 /* CLLJLocalization.swift */; };
+		EEFCE00E230CC3A10062FBC3 /* CLUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE00D230CC3A10062FBC3 /* CLUserDefaults.swift */; };
+		EEFCE011230CC3F50062FBC3 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE010230CC3F50062FBC3 /* UserDefaultsHelper.swift */; };
+		EEFCE013230CC41C0062FBC3 /* CLUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE012230CC41C0062FBC3 /* CLUtility.swift */; };
+		EEFCE016230CC44F0062FBC3 /* CLLRealmLJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE015230CC44F0062FBC3 /* CLLRealmLJ.swift */; };
+		EEFCE018230CC48A0062FBC3 /* RealmHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE017230CC48A0062FBC3 /* RealmHelpers.swift */; };
+		EEFCE01A230CC4D40062FBC3 /* MainCLLLocalizationLJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE019230CC4D40062FBC3 /* MainCLLLocalizationLJ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +51,20 @@
 		EEFCDFE5230CBC9D0062FBC3 /* LJClientLocalizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJClientLocalizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFCDFEA230CBC9D0062FBC3 /* LJClientLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJClientLocalizationTests.swift; sourceTree = "<group>"; };
 		EEFCDFEC230CBC9D0062FBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFCDFF9230CC0200062FBC3 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		EEFCDFFB230CC19A0062FBC3 /* CLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLConstants.swift; sourceTree = "<group>"; };
+		EEFCDFFE230CC22D0062FBC3 /* CLAppVersionRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAppVersionRepo.swift; sourceTree = "<group>"; };
+		EEFCE001230CC24D0062FBC3 /* CLAppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAppVersion.swift; sourceTree = "<group>"; };
+		EEFCE004230CC2950062FBC3 /* Observable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+.swift"; sourceTree = "<group>"; };
+		EEFCE006230CC2C10062FBC3 /* CustomAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAPIError.swift; sourceTree = "<group>"; };
+		EEFCE008230CC33A0062FBC3 /* CLLJLocalizationRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLJLocalizationRepo.swift; sourceTree = "<group>"; };
+		EEFCE00A230CC35C0062FBC3 /* CLLJLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLJLocalization.swift; sourceTree = "<group>"; };
+		EEFCE00D230CC3A10062FBC3 /* CLUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUserDefaults.swift; sourceTree = "<group>"; };
+		EEFCE010230CC3F50062FBC3 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		EEFCE012230CC41C0062FBC3 /* CLUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUtility.swift; sourceTree = "<group>"; };
+		EEFCE015230CC44F0062FBC3 /* CLLRealmLJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLRealmLJ.swift; sourceTree = "<group>"; };
+		EEFCE017230CC48A0062FBC3 /* RealmHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelpers.swift; sourceTree = "<group>"; };
+		EEFCE019230CC4D40062FBC3 /* MainCLLLocalizationLJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCLLLocalizationLJ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +105,6 @@
 				D9A9FC79FE7F1C0B2D62936F /* Pods-LJClientLocalizationTests.debug.xcconfig */,
 				66D2DD35C359FFB0A28AED60 /* Pods-LJClientLocalizationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,8 +131,17 @@
 		EEFCDFDE230CBC9D0062FBC3 /* LJClientLocalization */ = {
 			isa = PBXGroup;
 			children = (
+				EEFCE014230CC43D0062FBC3 /* Realm */,
+				EEFCE00F230CC3D50062FBC3 /* helpers */,
+				EEFCE00C230CC3980062FBC3 /* util */,
+				EEFCE003230CC2880062FBC3 /* ext */,
+				EEFCE000230CC2410062FBC3 /* Model */,
+				EEFCDFFD230CC2150062FBC3 /* Repository */,
+				EEFCDFF8230CC0100062FBC3 /* Rest */,
 				EEFCDFDF230CBC9D0062FBC3 /* LJClientLocalization.h */,
 				EEFCDFE0230CBC9D0062FBC3 /* Info.plist */,
+				EEFCDFFB230CC19A0062FBC3 /* CLConstants.swift */,
+				EEFCE019230CC4D40062FBC3 /* MainCLLLocalizationLJ.swift */,
 			);
 			path = LJClientLocalization;
 			sourceTree = "<group>";
@@ -113,10 +149,87 @@
 		EEFCDFE9230CBC9D0062FBC3 /* LJClientLocalizationTests */ = {
 			isa = PBXGroup;
 			children = (
+				EEFCDFF7230CBDAA0062FBC3 /* Model */,
+				EEFCDFF6230CBD9F0062FBC3 /* Rest */,
 				EEFCDFEA230CBC9D0062FBC3 /* LJClientLocalizationTests.swift */,
 				EEFCDFEC230CBC9D0062FBC3 /* Info.plist */,
 			);
 			path = LJClientLocalizationTests;
+			sourceTree = "<group>";
+		};
+		EEFCDFF6230CBD9F0062FBC3 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		EEFCDFF7230CBDAA0062FBC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEFCDFF8230CC0100062FBC3 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCDFF9230CC0200062FBC3 /* API.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		EEFCDFFD230CC2150062FBC3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCDFFE230CC22D0062FBC3 /* CLAppVersionRepo.swift */,
+				EEFCE008230CC33A0062FBC3 /* CLLJLocalizationRepo.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		EEFCE000230CC2410062FBC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCE001230CC24D0062FBC3 /* CLAppVersion.swift */,
+				EEFCE006230CC2C10062FBC3 /* CustomAPIError.swift */,
+				EEFCE00A230CC35C0062FBC3 /* CLLJLocalization.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEFCE003230CC2880062FBC3 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCE004230CC2950062FBC3 /* Observable+.swift */,
+			);
+			path = ext;
+			sourceTree = "<group>";
+		};
+		EEFCE00C230CC3980062FBC3 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCE00D230CC3A10062FBC3 /* CLUserDefaults.swift */,
+				EEFCE012230CC41C0062FBC3 /* CLUtility.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		EEFCE00F230CC3D50062FBC3 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCE010230CC3F50062FBC3 /* UserDefaultsHelper.swift */,
+				EEFCE017230CC48A0062FBC3 /* RealmHelpers.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		EEFCE014230CC43D0062FBC3 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCE015230CC44F0062FBC3 /* CLLRealmLJ.swift */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +296,7 @@
 				TargetAttributes = {
 					EEFCDFDB230CBC9D0062FBC3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					EEFCDFE4230CBC9D0062FBC3 = {
 						CreatedOnToolsVersion = 10.1;
@@ -276,6 +390,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFCE011230CC3F50062FBC3 /* UserDefaultsHelper.swift in Sources */,
+				EEFCE009230CC33A0062FBC3 /* CLLJLocalizationRepo.swift in Sources */,
+				EEFCDFFF230CC22D0062FBC3 /* CLAppVersionRepo.swift in Sources */,
+				EEFCDFFC230CC19A0062FBC3 /* CLConstants.swift in Sources */,
+				EEFCDFFA230CC0200062FBC3 /* API.swift in Sources */,
+				EEFCE016230CC44F0062FBC3 /* CLLRealmLJ.swift in Sources */,
+				EEFCE005230CC2950062FBC3 /* Observable+.swift in Sources */,
+				EEFCE00E230CC3A10062FBC3 /* CLUserDefaults.swift in Sources */,
+				EEFCE007230CC2C10062FBC3 /* CustomAPIError.swift in Sources */,
+				EEFCE018230CC48A0062FBC3 /* RealmHelpers.swift in Sources */,
+				EEFCE013230CC41C0062FBC3 /* CLUtility.swift in Sources */,
+				EEFCE01A230CC4D40062FBC3 /* MainCLLLocalizationLJ.swift in Sources */,
+				EEFCE002230CC24D0062FBC3 /* CLAppVersion.swift in Sources */,
+				EEFCE00B230CC35C0062FBC3 /* CLLJLocalization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F23CD18F51DBD45A4D20E73 /* Pods-LJClientLocalization.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -433,6 +562,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LJClientLocalization/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,6 +571,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Geoperson.LJClientLocalization;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE9854C2A98256CF0423E3A0 /* Pods-LJClientLocalization.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -459,6 +591,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LJClientLocalization/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,6 +609,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9A9FC79FE7F1C0B2D62936F /* Pods-LJClientLocalizationTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
 				INFOPLIST_FILE = LJClientLocalizationTests/Info.plist;
@@ -495,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66D2DD35C359FFB0A28AED60 /* Pods-LJClientLocalizationTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
 				INFOPLIST_FILE = LJClientLocalizationTests/Info.plist;
